@@ -59,12 +59,12 @@ Here's a useful reference guide for Strings: https://www.w3schools.com/cs/cs_str
 
 - Fork this repository and clone the forked version to your machine
 - Open the solution `csharp-fundamentals-primitive-types.sln` of the project in Visual Studio 2022
-- Implement the requirements listed in comments in the `Program.cs` file implement the questions by reading the comments
-- When ready to test your solution, open the `./src/test/java/com.booleanuk/core/ExerciseTest.java` file and click a "Run Test" button. You can either run the entire test suite via figure 1 in the screenshot below, or run a specific test via figure 2.
+- Wait for Visual Studio to open
+- Implement the requirements listed as comments in the `Core.cs` file implement the questions by reading the comments ![](./assets/open_core_code.png)
+- When ready to test your solution, click from the top left menu the Test button and then Run All Tests ![](./assets/run_tests.png)
+- You can run specific tests from the Tests Explorer Section -> Right click the test you want to run -> click Run ![](./assets/run_test_single.png)
 
 **Note:** Some of the requirements in this exercise may require you to use documentation to figure out the correct solution. When that is the case, links have been provided. Get used to this! A big part of our process is reading documentation to try and find useful information.
-
-![](./assets/run-a-test.PNG)
 
 ## Extensions
 
@@ -76,7 +76,7 @@ Create some classes that could represent any real world object. Start with the s
 public class Book {
     public String title = "A Game of Thrones";
     public int publishYear = 1996;
-    public float price = 11.99;
+    public float price = 11.99f;
     public String isbn = "0-00-224584-1";
     public String author = "George R. R. Martin";
 }
