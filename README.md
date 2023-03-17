@@ -1,6 +1,6 @@
 # C# Primitive Data Types
 
-In Java, there are two categories of data types:
+In c#, there are two categories of data types:
 
 1. **Built-in value types** for storing simple values like numbers, strings and booleans.
 2. **Built-in reference types** more advanced types for storing collections and objects.
