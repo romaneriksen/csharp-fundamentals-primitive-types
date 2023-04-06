@@ -2,9 +2,9 @@
 
 namespace csharp_fundamentals_primitive_types.Main
 {
-    public class CoreExercise
+    public class Core
     {
-        public CoreExercise() { }
+        public Core() { }
 
         public static int numOne = 8;
         public static int numTwo = 16;
@@ -47,22 +47,21 @@ namespace csharp_fundamentals_primitive_types.Main
         public double piD = 0;
 
 
-        public static String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        public static String firstName = "Jane";
-        public static String lastName = "Smith";
+        public static string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        public static string firstName = "Jane";
+        public static string lastName = "Smith";
 
         // 10. Create a public static member named fullName that contains the value of firstName and lastName concatenated together with a space in between
-        public String fullName = "";
+        public string fullName = "";
 
 
-        // 11. Create a public static char member named tenthLetter that contains the tenth letter in the alphabet member above.
-        // If you need help, here's some documentation: https://www.w3schools.com/java/ref_string_charat.asp
-        public char tenthLetter = ' ';
+        // 11. Fix the line below so that tenthLetter contains the tenth letter in the alphabet member above.
+        public char tenthLetter = alphabet.ToCharArray().ElementAtOrDefault(0);
 
 
         // 12. Create a public static string member named lowerAlphabet that contains the value of the alphabet member in all lower case characters
-        // If you need help, look through the available String methods to find a relevant one here: https://www.w3schools.com/java/java_ref_string.asp
-        public String lowerAlphabet = "";
+        // If you need help, look through the available String methods to find a relevant one here: https://www.w3schools.com/cs/cs_strings.php
+        public string lowerAlphabet = "";
 
 
         // 13. Create a public static integer member named alphabetLength that contains the number of characters that exist in the alphabet member

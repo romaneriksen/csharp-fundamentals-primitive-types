@@ -5,7 +5,7 @@ namespace csharp_fundamentals_primitive_types.Test
 {
     public class CoreTests
     {
-        CoreExercise coreExercise = new CoreExercise();
+        Core coreExercise = new Core();
 
         [Test]
         public void oneShouldBe24() {
